@@ -59,7 +59,7 @@
 
 -- DBTITLE 1,Unity Catalog’s security model is based on standard ANSI SQL, to grant permissions at the level of databases, tables, views, rows and columns 
 -- the catalog has been created for your user and is defined as default. All shares will be created inside.
--- make sure you run the 00-setup cell above to init the catalog to your user. 
+-- make sure you run the 00-setup cell above to init the catalog to your user.---
 SELECT CURRENT_CATALOG();
 
 -- COMMAND ----------
